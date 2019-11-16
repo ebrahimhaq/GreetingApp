@@ -1,0 +1,7 @@
+FROM openjdk:8-jdk-alpine
+LABEL maintainer="ebrahimhaq@gmail.com"
+
+COPY target/GreetingApp-0.0.1-SNAPSHOT.jar /demo.jar
+EXPOSE 5000
+
+CMD ["java", "-jar", "demo.jar"]
