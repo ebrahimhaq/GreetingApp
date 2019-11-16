@@ -7,7 +7,7 @@ Simple webservice application that is built using Maven and run on docker contai
 
 `docker build -t greetings-app .`
 
-`docker run -p 8080:8080 -t greetings-app`
+`docker run -p 5000:5000 -t greetings-app`
 
 # Get Calls
 
